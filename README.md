@@ -26,7 +26,7 @@ cd hotel-guest-management
 ### 2.Start PocketBase (Backend)
 cd server
 
-./pocketbase serve
+pocketbase.exe serve
 
 Runs backend on http://127.0.0.1:8090.
 
