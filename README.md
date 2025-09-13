@@ -24,11 +24,11 @@ git clone https://github.com/Shibishan/hotel-management-system.git
 cd hotel-guest-management
 
 ### 2.Start PocketBase (Backend)
--cd server
+cd server
 
--./pocketbase serve
+./pocketbase serve
 
--Runs backend on http://127.0.0.1:8090.
+Runs backend on http://127.0.0.1:8090.
 
 ### 3. Start React App (Frontend)
 cd client
