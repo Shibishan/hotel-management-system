@@ -19,15 +19,15 @@ It allows hotel staff to manage guest information with features like adding, edi
 # Setup & Run Instructions
 
 ### 1. Clone the Repository
-git clone https://github.com/Shibishan/hotel-management-system.git
-cd hotel-guest-management
+-git clone https://github.com/Shibishan/hotel-management-system.git
+-cd hotel-guest-management
 
 ### 2.Start PocketBase (Backend)
-cd server
-./pocketbase serve
-Runs backend on http://127.0.0.1:8090.
+-cd server
+-./pocketbase serve
+-Runs backend on http://127.0.0.1:8090.
 
 ### 3. Start React App (Frontend)
-cd client
-npm install
-npm run dev
+-cd client
+-npm install
+-npm run dev
