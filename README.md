@@ -5,8 +5,8 @@ This is a simple Hotel Guest Management System built as a mini project.
 It allows hotel staff to manage guest information with features like adding, editing, deleting, and searching for guests.
 
 ## Tech Stack
-- Frontend: React + TypeScript (Vite) with Tailwind CSS  
-- Backend: PocketBase (SQLite built-in)  
+- Frontend: React + TypeScript  CSS  
+- Backend: PocketBase 
 - Version Control: Git & GitHub  
 
 ## Features
