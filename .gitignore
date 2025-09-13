@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+dist/
+build/
+
+# Pocketbase binaries and data
+pb_data/
+pb_migrations/
+pb_hooks/
+pocketbase*
+
+# OS/system files
+.DS_Store
+Thumbs.db
