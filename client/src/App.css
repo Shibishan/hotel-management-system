@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-row {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.search-input {
+  width: 60%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.guest-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.guest-table th,
+.guest-table td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  text-align: left;
+}
+
+.guest-table th {
+  background-color: #e9ecef;
+}
+
+.guest-table tr:hover {
+  background-color: #f1f7ff;
+}
+
+.guest-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.actions-cell {
+  text-align: center;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+}
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+.guest-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.input-wide {
+  grid-column: span 2;
+}
+
+.btn-wide {
+  grid-column: span 2;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.no-results {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  padding: 10px;
+}
+
+/* small screen */
+@media (max-width: 600px) {
+  .search-input {
+    width: 100%;
+  }
+  .guest-form {
+    grid-template-columns: 1fr;
+  }
+}
